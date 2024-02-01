@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form{
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 20px;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 18%;
+}
+
+#div{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    margin-left: 8%;
+}
+
+#buttons{
+    margin-left: 70px;
+}
+
+#buttons button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#buttons button:hover{
+    background: rgb(75, 109, 141);
+    cursor: pointer;
+    color: white;
+}
+#table{
+    color: rgb(88, 39, 39);
+    background-color: rgba(255, 255, 255, 0.251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

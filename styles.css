@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+#form {
+    width:990px;
+    margin: 7vh;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 34px;
+    font-size: 18px;
+    /* Center vertically and horizontally */
+}
+
+label{
+    font-size: 20px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+#form div input{
+    font-size: 15px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+.submit-control{
+    display: flex;
+    flex-direction: row;
+}
+.submit-control button{
+    margin-left: 20px;
+    width: max-content;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.transaction{
+    margin-bottom: 10px;
+}
+
+input.vehicle1{
+    width: 20px;
+    height: 20px;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 2px solid rgb(35, 85, 165);
+
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+input[type="text"]::-webkit-input-placeholder  {
+    -webkit-transition: opacity 0.3s linear; 
+    color: gray;
+}
+  
+input[type="text"]:focus::-webkit-input-placeholder  {
+opacity: 0;
+}
+
+input::placeholder{
+opacity: 0.3;
+font-size: 13px;
+}
+
+#cars{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button{
+    height: 30px;
+}
+
+.inRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    height: 50px;
+
+}
+
